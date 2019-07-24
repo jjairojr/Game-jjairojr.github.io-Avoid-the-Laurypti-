@@ -83,7 +83,7 @@ function Passaro(alturaJogo) {
   let voando = false
   
   this.elemento = criarDiv('img', 'passaro')
-  this.elemento.src = 'img/lauriamosquitao1.png'
+  this.elemento.src = '/img/lauriamosquitao1.png'
 
   this.getY = () => parseInt(this.elemento.style.top.split('px')[0])
   this.setY = y => this.elemento.style.top = `${y}px`

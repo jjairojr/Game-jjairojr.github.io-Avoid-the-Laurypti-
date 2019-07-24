@@ -12,7 +12,7 @@
   border: 3px solid lightblue;
   height: 600px;
   width: 100%;
-  background-image: url('./img/saneago.jpg');
+  background-image: url('../img/saneago.jpg');
   background-repeat: no-repeat;
   background-size:100% 100%;
   overflow: hidden; 
