@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'FreePixel';
+  src: url('./fonts/FreePixel.ttf')
+}
+
+[wm-flappy] {
+  position: relative;
+  border: 3px solid lightblue;
+  height: 600px;
+  width: 100%;
+  background-image: url('./img/saneago.jpg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  overflow: hidden; 
+}
+
+.passaro {
+  position: absolute;
+  width: 100px;
+  left: calc(50% - 5%);
+}
+
+.obstaculos {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.barreira {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barreira .borda{
+  height: 50px;
+  width: 130px;
+  background: #042caf;
+  border: 2px solid black;
+}
+
+.barreira .corpo {
+  height: 50px;
+  width: 100px;
+  background: #042caf;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.progress {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-family: 'FreePixel';
+  font-size: 4em;
+}
