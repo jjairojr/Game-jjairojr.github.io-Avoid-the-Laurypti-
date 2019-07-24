@@ -172,7 +172,7 @@ function Avoid () {
         alert("VC DEIXOU O LAURIA ENTRAR NA CAIXA D'AGUA")
         clearInterval(timer)
       }
-    }, 30)
+    }, 40)
   }
 }
 new Avoid().start()
