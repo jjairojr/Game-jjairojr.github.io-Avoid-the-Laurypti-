@@ -155,7 +155,7 @@ function Avoid () {
   const largura = gameArea.clientWidth
 
   const progresso = new Progress()
-  const barreiras = new Barreiras(altura, largura, 200, 400, () => progresso.atualizarPontos(++pontos))
+  const barreiras = new Barreiras(altura, largura, 300, 400, () => progresso.atualizarPontos(++pontos))
   const passaro = new Passaro(altura)
 
   gameArea.appendChild(progresso.elemento)
